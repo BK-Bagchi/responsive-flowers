@@ -16,20 +16,24 @@ span {
   cursor: pointer;
 }
 header,
-.our-plants {
+.our-plants,
+.flower-and-plants-lover {
   width: 100vw;
 }
 header nav,
 header main,
-.our-plants main {
+.our-plants main,
+.flower-and-plants-lover main {
   width: 75%;
   margin: 0 auto;
+  padding: 20px 0;
 }
 header main {
   height: 70vh;
   bottom: 0px;
 }
-header main * {
+header main *,
+.flower-and-plants-lover main * {
   flex: 1;
 }
 header main h1 {
@@ -44,4 +48,29 @@ header main h1 {
 .our-plants main div {
   min-width: 270px;
   gap: 10px;
+}
+ul {
+  list-style-type: square !important;
+}
+.flower-and-plants-lover {
+  overflow: visible;
+}
+.flower-and-plants-lover main {
+  gap: 50px;
+  overflow: visible;
+}
+.flower-and-plants-lover .div-1 {
+  z-index: -1;
+  overflow: visible;
+}
+.flower-and-plants-lover .div-2 h1 {
+  font-size: 50px;
+}
+.flower-and-plants-lover .flower-store {
+  width: 100% !important;
+}
+.flower-and-plants-lover .trusted-badge {
+  height: 200px;
+  width: 200px;
+  z-index: 11;
 }
