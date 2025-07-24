@@ -8,24 +8,24 @@
     <title>Responsive Flowers</title>
   </head>
   <body>
-    <header class="w-screen hidden">
+    <header class="w-screen">
       <nav class="flex items-center justify-between">
         <div>
           <img src="assets/logo.png" alt="Logo" />
         </div>
         <div>
           <ul class="flex gap-10">
-            <li>Home</li>
-            <li>Shop</li>
-            <li>About Us</li>
+            <li class="hidden md:inline">Home</li>
+            <li class="hidden md:inline">Shop</li>
+            <li class="hidden md:inline">About Us</li>
             <li>Cart($13)</li>
           </ul>
         </div>
       </nav>
-      <main class="flex items-center justify-between">
+      <main class="flex flex-wrap-reverse items-center justify-between">
         <div>
           <h1>Always <span>Fresh Flowers</span></h1>
-          <p>
+          <p class="text-justify">
             Indulge your senses with the beauty and fragrance of our fresh
             flower shop. From classic roses to exotic blooms, we offer a wide
             variety of fresh flowers that are perfect for any occasion.
@@ -36,7 +36,7 @@
         </div>
       </main>
     </header>
-    <section class="our-plants w-screen hidden">
+    <section class="our-plants w-screen">
       <h1 class="text-center"><span>Our</span> Plants</h1>
       <p class="text-center">
         Indulge your senses with the beauty and fragrance of our fresh flower
@@ -94,8 +94,8 @@
         </div>
       </main>
     </section>
-    <section class="flower-and-plants-lover w-screen hidden">
-      <main class="flex">
+    <section class="flower-and-plants-lover w-screen">
+      <main class="flex flex-wrap">
         <div class="div-1 relative">
           <img
             src="assets/flower-store.png"
@@ -105,11 +105,11 @@
           <img
             src="assets/trusted-badge.png"
             alt="Trusted Badge"
-            class="trusted-badge absolute -top-[100px] -right-[100px]"
+            class="trusted-badge absolute hidden md:block"
           />
         </div>
         <div class="div-2">
-          <h1>Flower and plants Lover</h1>
+          <h1 class="text-center">Flower and plants Lover</h1>
           <ul>
             <li>
               Indulge your senses with the beauty and fragrance of our fresh
@@ -140,7 +140,7 @@
           shop. From classic roses to exotic blooms, we offer a wide variety of
           fresh.
         </p>
-        <figure class="flex">
+        <figure class="flex flex-col md:flex-row">
           <div class="mother-bg-1 flex flex-col">
             <div
               class="child-bg-1 flex flex-col items-center justify-center rounded-xl"
@@ -164,7 +164,7 @@
         </figure>
       </main>
     </section>
-    <section class="join-brunch w-screen hidden">
+    <section class="join-brunch w-screen">
       <main class="flex flex-col items-center justify-center">
         <h1 class="text-center">Join the colorful brunch</h1>
         <form class="flex">
@@ -173,7 +173,7 @@
         </form>
       </main>
     </section>
-    <footer class="w-screen hidden">
+    <footer class="w-screen">
       <main class="flex">
         <div>
           <img src="assets/logo.png" alt="Logo" />
