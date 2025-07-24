@@ -24,7 +24,8 @@ header nav,
 header main,
 .our-plants main,
 .flower-and-plants-lover main,
-.latest-deals main {
+.latest-deals main,
+footer main {
   width: 75%;
   margin: 0 auto;
   padding: 20px 0;
@@ -97,4 +98,25 @@ ul {
   background-color: white;
   border-radius: 2px;
   padding: 10px 20px;
+}
+footer main * {
+  width: calc(100% / 3);
+}
+footer main p {
+  width: 100%;
+}
+footer .lists-section ul li {
+  margin: 10px 0;
+  cursor: pointer;
+  width: 100%;
+}
+footer .lists-section ul li:hover {
+  text-decoration: underline;
+}
+footer .logo-section img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 10px;
+  cursor: pointer;
 }
