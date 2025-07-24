@@ -84,6 +84,7 @@ header main h1 {
   z-index: 11;
   top: -90px;
   right: -90px;
+  animation: spin 5s linear infinite;
 }
 .latest-deals main figure {
   height: 600px;
