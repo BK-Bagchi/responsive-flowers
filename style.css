@@ -32,6 +32,9 @@ span {
   width: 100%;
   padding: 20px;
 }
+header {
+  margin-bottom: 50px;
+}
 header main div {
   min-width: 350px;
 }
