@@ -9,7 +9,7 @@
   </head>
   <body>
     <header class="w-screen">
-      <nav class="flex items-center justify-between">
+      <nav class="flex items-center justify-between wmp">
         <div>
           <img src="assets/logo.png" alt="Logo" />
         </div>
@@ -22,28 +22,36 @@
           </ul>
         </div>
       </nav>
-      <main class="flex flex-wrap-reverse items-center justify-between">
+      <main class="flex flex-wrap-reverse items-center justify-between wmp">
         <div>
-          <h1>Always <span>Fresh Flowers</span></h1>
-          <p class="text-justify">
+          <h1 class="text-center md:text-left">
+            Always <span>Fresh Flowers</span>
+          </h1>
+          <p class="text-justify text-color">
             Indulge your senses with the beauty and fragrance of our fresh
             flower shop. From classic roses to exotic blooms, we offer a wide
             variety of fresh flowers that are perfect for any occasion.
           </p>
         </div>
-        <div>
-          <img src="assets/hero-flower.png" alt="Hero Flower" />
+        <div class="flex justify-between">
+          <img
+            class="hero-flower"
+            src="assets/hero-flower.png"
+            alt="Hero Flower"
+          />
         </div>
       </main>
     </header>
     <section class="our-plants w-screen">
-      <h1 class="text-center"><span>Our</span> Plants</h1>
-      <p class="text-center">
-        Indulge your senses with the beauty and fragrance of our fresh flower
-        shop. From classic roses to exotic blooms, we offer a wide variety of
-        fresh.
-      </p>
-      <main class="flex flex-wrap justify-center">
+      <div class="wmp">
+        <h1 class="text-center"><span>Our</span> Plants</h1>
+        <p class="text-center text-color">
+          Indulge your senses with the beauty and fragrance of our fresh flower
+          shop. From classic roses to exotic blooms, we offer a wide variety of
+          fresh.
+        </p>
+      </div>
+      <main class="flex flex-wrap justify-center wmp">
         <div class="text-center flex flex-col">
           <img src="assets/sample-flower-image.png" alt="Sample Flower" />
           <h3>Lily Blossom</h3>
@@ -95,7 +103,7 @@
       </main>
     </section>
     <section class="flower-and-plants-lover w-screen">
-      <main class="flex flex-wrap">
+      <main class="flex flex-wrap wmp">
         <div class="div-1 relative">
           <img
             src="assets/flower-store.png"
@@ -110,7 +118,7 @@
         </div>
         <div class="div-2">
           <h1 class="text-center">Flower and plants Lover</h1>
-          <ul>
+          <ul class="text-color">
             <li>
               Indulge your senses with the beauty and fragrance of our fresh
               flower shop. From classic roses to exotic blooms, we offer a wide
@@ -133,9 +141,9 @@
       </main>
     </section>
     <section class="latest-deals w-screen">
-      <main class="flex flex-col">
+      <main class="flex flex-col wmp">
         <h1 class="text-center"><span>Latest</span> Deals</h1>
-        <p class="text-center">
+        <p class="text-center text-color">
           Indulge your senses with the beauty and fragrance of our fresh flower
           shop. From classic roses to exotic blooms, we offer a wide variety of
           fresh.
@@ -166,17 +174,17 @@
     </section>
     <section class="join-brunch w-screen">
       <main class="flex flex-col items-center justify-center">
-        <h1 class="text-center">Join the colorful brunch</h1>
+        <h1 class="text-center">Join the Colorful Brunch</h1>
         <form class="flex">
           <input type="text" placeholder="Write Email" />
           <button class="cmn-btn">Subscribe</button>
         </form>
       </main>
     </section>
-    <footer class="w-screen">
-      <main class="flex">
+    <footer class="w-screen text-color">
+      <main class="flex wmp flex-col md:flex-row">
         <div>
-          <img src="assets/logo.png" alt="Logo" />
+          <img class="logo" src="assets/logo.png" alt="Logo" />
           <p>
             Indulge your senses with the beauty and fragrance of our fresh
             flower shop.
