@@ -15,15 +15,16 @@ span {
   border-radius: 3px;
   cursor: pointer;
 }
-header,
+/* header,
 .our-plants,
 .flower-and-plants-lover {
   width: 100vw;
-}
+} */
 header nav,
 header main,
 .our-plants main,
-.flower-and-plants-lover main {
+.flower-and-plants-lover main,
+.latest-deals main {
   width: 75%;
   margin: 0 auto;
   padding: 20px 0;
@@ -73,4 +74,27 @@ ul {
   height: 200px;
   width: 200px;
   z-index: 11;
+}
+.join-brunch main {
+  height: 500px;
+  width: 100vw;
+  background: url(assets/news-letter-bg.png) no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.join-brunch main h1 {
+  font-size: 50px;
+  color: white;
+}
+.join-brunch main form {
+  width: 70%;
+}
+.join-brunch main button {
+  width: 170px;
+}
+.join-brunch main input {
+  width: calc(100% - 170px);
+  background-color: white;
+  border-radius: 2px;
+  padding: 10px 20px;
 }
