@@ -80,6 +80,9 @@ ul {
   height: 300px;
   gap: 20px;
 }
+.latest-deals main h1 {
+  font-size: 50px;
+}
 .latest-deals main figure p {
   color: white;
   font-weight: 600;
