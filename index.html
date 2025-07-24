@@ -8,7 +8,7 @@
     <title>Responsive Flowers</title>
   </head>
   <body>
-    <header class="w-screen">
+    <header class="w-screen hidden">
       <nav class="flex items-center justify-between">
         <div>
           <img src="assets/logo.png" alt="Logo" />
@@ -132,18 +132,34 @@
         </div>
       </main>
     </section>
-    <section class="latest-deals w-screen hidden">
-      <main>
+    <section class="latest-deals w-screen">
+      <main class="flex flex-col">
         <h1 class="text-center"><span>Latest</span> Deals</h1>
         <p class="text-center">
           Indulge your senses with the beauty and fragrance of our fresh flower
           shop. From classic roses to exotic blooms, we offer a wide variety of
           fresh.
         </p>
-        <figure>
-          <div><img src="" alt="" /><img src="" alt="" /></div>
-          <div>
-            <img src="" alt="" />
+        <figure class="flex">
+          <div class="mother-bg-1 flex flex-col">
+            <div
+              class="child-bg-1 flex flex-col items-center justify-center rounded-xl"
+            >
+              <p>60% Off | Bloom Plant</p>
+              <p>Shop Now</p>
+            </div>
+            <div
+              class="child-bg-2 flex flex-col items-center justify-center rounded-xl"
+            >
+              <p>60% Off | Bloom Plant</p>
+              <p>Shop Now</p>
+            </div>
+          </div>
+          <div
+            class="mother-bg-2 flex flex-col items-center justify-center rounded-xl"
+          >
+            <p>25% Off | Zabo Plant</p>
+            <p>Shop Now</p>
           </div>
         </figure>
       </main>
@@ -157,7 +173,7 @@
         </form>
       </main>
     </section>
-    <footer class="w-screen">
+    <footer class="w-screen hidden">
       <main class="flex">
         <div>
           <img src="assets/logo.png" alt="Logo" />
