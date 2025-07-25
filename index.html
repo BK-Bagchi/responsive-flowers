@@ -12,7 +12,7 @@
     <title>Responsive Flowers</title>
   </head>
   <body>
-    <header class="w-screen">
+    <header class="w-screen !mb-[50px]">
       <nav class="flex items-center justify-between wmp">
         <div>
           <img src="assets/logo.png" alt="Logo" />
@@ -27,7 +27,7 @@
         </div>
       </nav>
       <main class="flex flex-wrap-reverse items-center justify-between wmp">
-        <div>
+        <div class="min-w-[350px]">
           <h1 class="text-left uppercase text-[3rem]">
             Always <span>Fresh Flowers</span>
           </h1>
@@ -37,7 +37,7 @@
             variety of fresh flowers that are perfect for any occasion.
           </p>
         </div>
-        <div class="flex justify-between">
+        <div class="flex justify-between min-w-[350px]">
           <img
             class="hero-flower"
             src="assets/hero-flower.png"
@@ -55,7 +55,9 @@
           fresh.
         </p>
       </div>
-      <main class="flex flex-wrap justify-center wmp">
+      <main
+        class="flex flex-wrap justify-center !mb-[100px] gap-y-[20px] gap-x-[10px] wmp"
+      >
         <div class="text-center flex flex-col">
           <img src="assets/sample-flower-image.png" alt="Sample Flower" />
           <h3>Lily Blossom</h3>
@@ -122,25 +124,25 @@
         </div>
       </main>
     </section>
-    <section class="flower-and-plants-lover w-screen">
-      <main class="flex flex-wrap gap-[50px] wmp">
-        <div class="div-1 relative">
+    <section class="flower-and-plants-lover !overflow-visible w-screen">
+      <main class="flex flex-wrap gap-[50px] !overflow-visible !mb-[100px] wmp">
+        <div class="div-1 relative !overflow-visible">
           <img
             src="assets/flower-store.png"
             alt="Flower Store"
-            class="flower-store"
+            class="flower-store !w-full"
           />
           <img
             src="assets/trusted-badge.png"
             alt="Trusted Badge"
-            class="trusted-badge absolute hidden md:block animate-spin h-[200px] w-[200px] top-[-90px] right-[-90px] z-[11]"
+            class="trusted-badge absolute hidden md:block animate-spin h-[200px] w-[200px] top-[-90px] right-[-90px] z-[11] [animation-duration:5s] [animation-timing-function:linear]"
           />
         </div>
         <div class="div-2">
           <h1 class="text-center md:text-left text-[3rem]">
             Flower and plants Lover
           </h1>
-          <ul class="text-color">
+          <ul class="text-color !pl-[1.5rem]">
             <li>
               Indulge your senses with the beauty and fragrance of our fresh
               flower shop. From classic roses to exotic blooms, we offer a wide
@@ -163,14 +165,16 @@
       </main>
     </section>
     <section class="latest-deals w-screen">
-      <main class="flex flex-col wmp">
+      <main class="flex flex-col !mb-[100px] wmp">
         <h1 class="text-center text-[3rem]"><span>Latest</span> Deals</h1>
         <p class="text-center text-color">
           Indulge your senses with the beauty and fragrance of our fresh flower
           shop. From classic roses to exotic blooms, we offer a wide variety of
           fresh.
         </p>
-        <figure class="flex flex-col md:flex-row h-[600px] md:h-[300px]">
+        <figure
+          class="flex flex-col md:flex-row h-[600px] md:h-[300px] gap-[20px] !my-[50px]"
+        >
           <div class="mother-bg-1 flex flex-col">
             <div
               class="child-bg-1 flex flex-col items-center justify-center rounded-xl bg-cover bg-center"
@@ -196,13 +200,17 @@
     </section>
     <section class="join-brunch w-screen">
       <main
-        class="flex flex-col items-center justify-center h-[500px] w-[100vw]"
+        class="flex flex-col items-center justify-center h-[500px] w-[100vw] !bg-fixed !bg-cover"
       >
         <h1 class="text-center text-[3rem] text-[white]">
           Join the Colorful Brunch
         </h1>
         <form class="flex w-[70%]">
-          <input type="text" placeholder="Write Email" />
+          <input
+            type="text"
+            placeholder="Write Email"
+            class="rounded-xs !py-[10px] !px-[20px]"
+          />
           <button class="cmn-btn">Subscribe</button>
         </form>
       </main>
@@ -211,20 +219,20 @@
       <main class="flex wmp flex-col md:flex-row gap-[20px]">
         <div>
           <img class="logo" src="assets/logo.png" alt="Logo" />
-          <p>
+          <p class="!w-full !my-[20px]">
             Indulge your senses with the beauty and fragrance of our fresh
             flower shop.
           </p>
         </div>
         <div class="flex justify-center lists-section">
-          <ul>
+          <ul class="!w-full">
             <li>Home</li>
             <li>About Us</li>
             <li>Blog</li>
             <li>FAQ</li>
             <li>Contact Us</li>
           </ul>
-          <ul>
+          <ul class="!w-full">
             <li>Features</li>
             <li>Pricing</li>
             <li>Privacy Policy</li>
